@@ -1,0 +1,55 @@
+.container__saiba-mais{
+    display: block;
+    
+}
+
+.imagem__livro{
+    width: 50%;
+    
+}
+
+.detalhes__livro{
+    margin: 0.5em;
+    padding: 1em;
+    background-color: var(--branco);
+}
+
+@media screen and (min-width: 1024px) {
+    .container__saiba-mais{
+        display: flex;
+        margin: 3em;
+    }
+
+    .texto__titulo-descricao{
+        padding: 0 1em;
+    }
+    .descricao__titulo-autor{
+    background-color: var(--laranja);
+    padding: 1em 2.2em;
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
+    }
+
+    .descricao__texto{
+        padding: 0.1em;
+    }
+    .imagem__livro{
+       width: 20em;
+       height: 30em;
+       padding: 1em;
+    }
+
+    .detalhes__livro{
+        padding: 1em;
+    }
+    
+    .lista-descricao__livro{
+        padding: 0.5em;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+
+
+}
