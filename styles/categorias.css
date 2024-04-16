@@ -1,0 +1,60 @@
+.descricao__imagem{
+    width: 45%;
+    height: 50%;
+}
+
+.descriacao__breve {
+    height: 90px;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.descriacao__breve::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    
+}
+
+.descriacao__breve p {
+    color: var(--azul);
+    text-align: left;
+    text-indent: 20px;
+}
+
+/** Read More/Less Button **/
+#read_button {
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+    margin-top: 15px;
+    background-color: var(--laranja);
+    color: var(--azul);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+#read_button:hover {
+    background-color: var(--laranja);
+    color: var(--azul);
+    transition: all 0.2s ease-in-out;
+}
+
+/** Active **/
+.card.active .descriacao__breve {
+    height: auto;
+}
+
+.card.active .descriacao__breve::before {
+    visibility: hidden;
+}
+
+@media screen and (min-width: 1024px) {
+    .descricao__imagem{
+        width: 25%;
+        height: 50%;
+    }
+}

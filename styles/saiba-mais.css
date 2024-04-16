@@ -7,13 +7,17 @@ body {
     flex-direction: column;
     padding: 1em;
 }
-
 .imagem__livro{
     width: 50%;
 }
-
-.descricao__titulo-livro{
+.descricao{
+    width: 45%;
+}
+.descricao__titulo{
     font-size: 25px;
+}
+.descricao__titulo-livro{
+    font-size: 20px;
 }
 
 .descricao__titulo-autor{
@@ -44,7 +48,7 @@ body {
 .lista-descricao__livro{
     padding-bottom: 0.5em;
 }
-    
+
 
 @media screen and (min-width: 1024px) {
     .container__saiba-mais{
@@ -64,7 +68,8 @@ body {
     }
 
     .descricao__texto{
-        padding: 0.1em;
+        padding: 0.2em;
+        line-height: 1.5em;
     }
     .imagem__livro{
        width: 20em;
