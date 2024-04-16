@@ -6,6 +6,7 @@
 @import url("styles/rodape.css");
 @import url("styles/login.css");
 @import url("styles/saiba-mais.css");
+@import url("styles/categorias.css");
 
 :root{
     --cor-fundo: #EBECEE;
